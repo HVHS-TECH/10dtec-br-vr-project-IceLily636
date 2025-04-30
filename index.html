@@ -20,7 +20,7 @@
       
       <a-entity
       ply-model="src:charichters-0-ron.ply"
-      position="39.346 0 20.217"
+      position="39.000 0 20.000"
       rotation="-90 0 90"
       ></a-entity>
 
@@ -37,7 +37,19 @@
       scale="3.800 3.800 3.800"
       ></a-entity>
 
-      <a-entity></a-entity>
+      <a-entity
+      ply-model="src:charichters-2-harry.ply"
+      rotation="-90 0 90"
+      position="38.000 0 20.000"
+      animation="
+      property:position;
+      from:38.000 0 20.000
+      to:38.000 0 17.000
+      dur:2000;
+      loop:true;
+      dir:alternate;
+      "
+      ></a-entity>
 
 
 
